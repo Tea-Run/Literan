@@ -43,7 +43,7 @@ switch($accion){
     case 'borrar':
         $cantidad = $app->borrar($id);
         if($cantidad){
-                $app->alerta('success','Se borro el regitro');
+                $app->alerta('success','Se borro el registro');
             }else{
                 $app->alerta('warning','Algo salio mal');
             }
